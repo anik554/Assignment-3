@@ -23,7 +23,8 @@
                 'btn-color' : '#ABEF5F',
                 'btn-color2' : 'rgba(171, 239, 95, 0.5)',
                 'icon-color' : '#737373',
-                'nav-item-normal' : '#737373'
+                'nav-item-normal' : '#737373',
+                'paragrap-text': '#494949'
 
               }
             }
@@ -40,7 +41,7 @@
 <body class="bg-[#F4F4F4]">
     <!-- head section -->
      <header >
-        <nav class="w-11/12 mx-auto overflow-hidden  bg-inherit">
+        <nav class="w-11/12 xl:w-10/12 mx-auto overflow-hidden  ">
             <div class="navbar mt-5">
                 <div class="navbar-start">
                   
@@ -82,7 +83,7 @@
                 
               </div>
         </nav>
-        <div class="w-11/12 mx-auto overflow-hidden mt-10 mb-10 space-y-3 items-center">
+        <div class="w-11/12 xl:w-10/12 mx-auto overflow-hidden mt-10 mb-10 space-y-3 items-center">
             <img class="mx-auto" src="./assets/banner.png" alt="banner" srcset="">
             <h2 class="text-3xl md:text-7xl  font-bold text-center">A barn house of this design has a <br> striking appearance</h2>
             <br>
@@ -101,7 +102,113 @@
 
 
      <!-- main section -->
-      <main></main>
+      <main>
+        <!-- About Section  -->
+         
+        <span>
+          <img class="-left-5" src="assets/Vector.png" alt="Vector Image" srcset="">
+         </span>
+         <section class="w-11/12 xl:w-10/12 mx-auto mb-24">
+          
+            <div class="md:flex justify-between">
+              <!-- Text Section  -->
+              <div class="space-y-3">
+                <button class="btn btn-sm drop-shadow-sm bg-white rounded-full "> <i class="fa-solid fa-arrow-right "></i> About Us</button>
+                <h2 class="text-3xl xl:text-5xl font-bold">We design thoughtful, <br> liveable spaces</h2>
+                <br>
+                <p class="paragrap-text">The barn house captivates with its blend of rustic charm and <br>
+                  modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                  <br>
+                <div class="flex drop-shadow-sm bg-white p-3 rounded-md space-x-4">
+                  <div class="items-center flex">
+                    <img src="./assets/commercial.png" alt="Commercial" srcset="">
+                  </div>
+                  <div class="space-y-2">
+                    <h3 class="font-bold">Commercial</h3>
+                    <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                  </div>
+                </div>
+                <div class="flex drop-shadow-sm bg-white p-3 rounded-md space-x-4">
+                  <div class="items-center flex">
+                    <img src="./assets/residential.png" alt="Residential" srcset="">
+                  </div>
+                  <div class="space-y-2 items-center">
+                    <h3 class="font-bold">Residential</h3>
+                    <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                  </div>
+                </div>
+
+              </div>
+              <!-- Image Section  -->
+               <div>
+                <img class="h-full" src="./assets/Rectangle.png" alt="Rectangle Home image">
+               </div>
+            </div>
+         </section>
+
+         <!-- Counting Section  -->
+         <section class="w-11/12 xl:w-10/12 mx-auto mb-24 drop-shadow-sm bg-white rounded-lg">
+            <div class="md:flex space-y-10 md:space-y-0 justify-around p-10 ">
+              <div class="text-center">
+                <i class="fa-regular fa-message text-xl"></i>
+                <h3 class="text-3xl font-bold text-paragrap-text">235+</h3>
+                <p>Happy Client Review</p>
+              </div>
+              <div class="text-center">
+                <i class="fa-solid fa-up-right-from-square text-xl"></i>
+                <h3 class="text-3xl font-bold text-paragrap-text">235+</h3>
+                <p>Happy Client Review</p>
+              </div>
+              <div class="text-center">
+                <i class="fa-solid fa-users text-xl"></i>
+                <h3 class="text-3xl font-bold text-paragrap-text">235+</h3>
+                <p>Happy Client Review</p>
+              </div>
+              <div class="text-center">
+                <i class="fa-solid fa-user-group text-xl"></i>
+                <h3 class="text-3xl font-bold text-paragrap-text">235+</h3>
+                <p>Happy Client Review</p>
+              </div>
+            </div>
+         </section>
+        <!-- Our Latest Portfolio -->
+        <section class="w-11/12 xl:w-10/12 mx-auto mb-24">
+          <!-- Text Content  -->
+          <div class="space-y-5">
+            <div class="flex justify-center">
+              <button class=" btn btn-sm drop-shadow-sm bg-btn-color2 border-0 rounded-full "> <i class="fa-solid fa-arrow-right "></i> Explore our Latest works</button>
+              
+            </div>
+            <div class="text-center space-y-3">
+              <h3 class="lg:text-5xl font-bold">Our Latest Portfolio</h3>
+              <p>The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+            </div>
+          </div>
+          <!-- Card Content  -->
+           <div class="grid grid-cols-3 grid-rows-2 space-x-5">
+              <div class="flex drop-shadow-md bg-white border-spacing-1 rounded-lg space-x-7 col-span-2">
+                <div class="flex items-center p-3 ">
+                  <img src="./assets/img1.png" alt="">
+                </div>
+                <div class="p-3 space-y-3 block items-center">
+                  <h2 class="text-2xl font-bold">Commercial</h2>
+                  <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                  <h3>View Details</h3>
+                </div>
+              </div>
+              <div class="drop-shadow-md bg-white rounded-lg ">
+                  <img class="p-3 flex justify-center items-center  object-cover" src="./assets/img2.png" alt="">
+              </div>
+              <div class="drop-shadow-md bg-white rounded-lg ">
+                  <img class="p-3 flex justify-center items-center  object-cover" src="./assets/img3.png" alt="">
+              </div>
+              
+           </div>
+        </section>
+
+      </main>
+
+      
       <!-- footer section -->
       <footer></footer>
 </body>
